@@ -9,28 +9,6 @@ A modern **Quiz Management System** built using React.js that allows users to cr
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home / Admin Panel
-![Home](src/assets/home.png)
-
-### ➕ Add Question
-![Add Question](src/assets/addquestion.png)
-
-### ❌ Delete Question
-![Delete Question](src/assets/deletequestion.png)
-
-### ✏️ Update Question
-![Update Question](src/assets/UpdateQuestion.png)
-
-### 🚀 Quiz Mode
-![Quiz Mode](src/assets/QuizStar.png)
-
-### 🏆 Score Screen
-![Score](src/assets/score.png)
-
----
-
 ## ✨ Features
 
 - ➕ Add New Questions (CRUD)
@@ -58,8 +36,23 @@ A modern **Quiz Management System** built using React.js that allows users to cr
 
 ## 📂 Project Structure
 
-
----
+```
+src/
+├── assets/
+│   ├── home.png
+│   ├── addquestion.png
+│   ├── deletequestion.png
+│   ├── UpdateQuestion.png
+│   ├── QuizStar.png
+│   ├── score.png
+├── components/
+│   ├── AddQuestion.jsx
+│   ├── QuestionList.jsx
+├── App.jsx
+├── App.css
+├── main.jsx
+├── questions.js
+```
 
 ## ⚙️ Installation & Setup
 
